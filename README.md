@@ -31,7 +31,7 @@
     !El valor del 'tipo_indicador' pueden ser: uf, ivp, dolar, dolar_intercambio, euro, ipc, utm, imacec, tpm, libra_cobre, tasa_desempleo, bitcoin.
     !El valor de 'fecha' es una fecha valida ya sea en formato 'YYYY', como por ejemplo '2020' o en 'dd-mm-yyyy', como por ejemplo '09-02-2021'.
     !El sistema cuenta con 5 funciones las cuales son:
-     * Contar: la cual ordena y muestra la cantidad de parametros serializados por la API en torno a un indicador y sus valores
+     *Contar: la cual ordena y muestra la cantidad de parametros serializados por la API en torno a un indicador y sus valores
      + Se consulta con la URL: 
      
             http://localhost:3000/api/contar?tipo_indicador={tipo_indicado}&fecha={fecha}
@@ -52,7 +52,7 @@
         
         > Ejemplo: http://localhost:3000/api/maximo?tipo_indicador=uf&fecha=2021
 
-     * Mínimo: Muestra el valor mínimo alcanzado por el indicador en la fecha estipulada.
+     *Mínimo: Muestra el valor mínimo alcanzado por el indicador en la fecha estipulada.
      + Se consulta con la URL: 
                    
             http://localhost:3000/api/minimo?tipo_indicador={tipo_indicado}&fecha={fecha}

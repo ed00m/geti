@@ -23,22 +23,22 @@
     el valor del 'tipo_indicador' pueden ser: uf, ivp, dolar, dolar_intercambio, euro, ipc, utm, imacec, tpm, libra_cobre, tasa_desempleo, bitcoin.
     el valor de 'fecha' es una fecha valida ya sea en formato 'YYYY', como por ejemplo '2020' o en 'dd-mm-yyyy', como por ejemplo '09-02-2021'
     El sistema cuenta con 5 funciones las cuales son:
-        > Contar: la cual ordena y muestra la cantidad de parametros serializados por la API en torno a un indicador y sus valores
+        # Contar: la cual ordena y muestra la cantidad de parametros serializados por la API en torno a un indicador y sus valores
         para utiliza llamado a http://localhost:3000/api/contar?tipo_indicador={tipo_indicado}&fecha={fecha}
-        # Ejemplo: http://localhost:3000/api/contar?tipo_indicador=uf&fecha=2021
+        > Ejemplo: http://localhost:3000/api/contar?tipo_indicador=uf&fecha=2021
 
-        > Promedio: El cual calcula el promedio del valor del indicador según la fecha estipulada
+        # Promedio: El cual calcula el promedio del valor del indicador según la fecha estipulada
         para utiliza llamado a http://localhost:3000/api/promedio?tipo_indicador={tipo_indicado}&fecha={fecha}
-        # Ejemplo: http://localhost:3000/api/promedio?tipo_indicador=uf&fecha=2021
+        > Ejemplo: http://localhost:3000/api/promedio?tipo_indicador=uf&fecha=2021
 
-        > Máximo: Muestra el valor máximo alcanzado por el indicador en la fecha estipulada.
+        # Máximo: Muestra el valor máximo alcanzado por el indicador en la fecha estipulada.
         para utiliza llamado a http://localhost:3000/api/maximo?tipo_indicador={tipo_indicado}&fecha={fecha}
-        # Ejemplo: http://localhost:3000/api/maximo?tipo_indicador=uf&fecha=2021
+        > Ejemplo: http://localhost:3000/api/maximo?tipo_indicador=uf&fecha=2021
 
-        > Mínimo: Muestra el valor mínimo alcanzado por el indicador en la fecha estipulada.
+        # Mínimo: Muestra el valor mínimo alcanzado por el indicador en la fecha estipulada.
         para utiliza llamado a http://localhost:3000/api/minimo?tipo_indicador={tipo_indicado}&fecha={fecha}
-        # Ejemplo: http://localhost:3000/api/minimo?tipo_indicador=uf&fecha=2021
+        > Ejemplo: http://localhost:3000/api/minimo?tipo_indicador=uf&fecha=2021
 
-        > Valores: Calcula y ordena todas las operaciones realizadas hasta ahora, tales como promedio, máximo y mínimo, como tambien los datos ordenados e indexados de los valores y fechas del indicador consultado.
+        # Valores: Calcula y ordena todas las operaciones realizadas hasta ahora, tales como promedio, máximo y mínimo, como tambien los datos ordenados e indexados de los valores y fechas del indicador consultado.
         para utiliza llamado a http://localhost:3000/api/valores?tipo_indicador={tipo_indicado}&fecha={fecha}
-        # Ejemplo: http://localhost:3000/api/valores?tipo_indicador=uf&fecha=2021
+        > Ejemplo: http://localhost:3000/api/valores?tipo_indicador=uf&fecha=2021

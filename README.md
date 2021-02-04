@@ -27,9 +27,9 @@
         "{"code":200,"message":"¡El servidor esta funcionando!","status":"ok","data":{}}"
 
     # ¡La aplicación se utiliza con el formato get con las variables 'tipo_indicador' y 'fecha'!
-    ~ El valor del 'tipo_indicador' pueden ser: uf, ivp, dolar, dolar_intercambio, euro, ipc, utm, imacec, tpm, libra_cobre, tasa_desempleo, bitcoin.
-    ~ El valor de 'fecha' es una fecha valida ya sea en formato 'YYYY', como por ejemplo '2020' o en 'dd-mm-yyyy', como por ejemplo '09-02-2021'.
-    > El sistema cuenta con 5 funciones las cuales son:
+    - El valor del 'tipo_indicador' pueden ser: uf, ivp, dolar, dolar_intercambio, euro, ipc, utm, imacec, tpm, libra_cobre, tasa_desempleo, bitcoin.
+    - El valor de 'fecha' es una fecha valida ya sea en formato 'YYYY', como por ejemplo '2020' o en 'dd-mm-yyyy', como por ejemplo '09-02-2021'.
+    - El sistema cuenta con 5 funciones las cuales son:
       *Contar: la cual ordena y muestra la cantidad de parametros serializados por la API en torno a un indicador y sus valores
         Para utiliza llamado a http://localhost:3000/api/contar?tipo_indicador={tipo_indicado}&fecha={fecha}
         
